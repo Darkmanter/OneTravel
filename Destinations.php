@@ -2,7 +2,10 @@
 include 'config.php';
 include 'includes/header.php';
  ?>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
    <link rel="stylesheet" href="css/Destinations.css">
+</div>
  <section class="country">
          <div class="destinations_top_header">
            <div class="destinations_top_header__title">COUNTRY</div>
@@ -35,6 +38,7 @@ include 'includes/header.php';
            </div>
          </div>
          </section>
+<script src="scripts.js"></script>
 <section class="features">
  <div class="mt-3" data-spy="scroll" data-target="navbarDropdownMenuLink" data-offset="0">
    <div id="London">
@@ -63,8 +67,30 @@ include 'includes/header.php';
            </h4>
            <p>This is a district in the south of London, one of London's richest places, just 8 minutes from downtown London by Southeastern bullet train.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+</div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
