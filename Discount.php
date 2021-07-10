@@ -2,6 +2,7 @@
 include 'config.php';
 include 'includes/header.php';
  ?>
+  <link rel="stylesheet" href="css/Destinations.css">
    <div class="container-fluid pr-0 pl-0"> <!-- slide show -->
        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
          <div class="carousel-inner">
@@ -122,30 +123,46 @@ include 'includes/header.php';
      </div>
    </div>
  </div> <!-- end of row - discount -->
-
+ <section class="features">
+  <div class="mt-3" data-spy="scroll" data-target="navbarDropdownMenuLink" data-offset="0">
  <div class="container"> <!-- Travel PLaces -->
    <div class="title">
      <h1 class="text-center m-5 pt-5">Travel Most Popular Place <br> In The World</h1>
    </div>
    <div class="row">
-     <div class="col-lg-4 pt-5 pb-5">
-       <div class="card">
-         <img class="card-img-fluid" src="https://travelmagma.com/uploads/images/1_3.jpeg" alt="">
-         <div class="card-body">
-           <h1>China<strong class="text-primary mb-2 d-block font-weight-lighter">$50</strong></h1>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+       <div class="col-md-4">
+         <div class="feature-box">
+           <div class="feature-img">
+             <img src="https://travelmagma.com/uploads/images/1_3.jpeg">
+             <div class="number">
+               <p>50$</p>
+           </div>
+         </div>
+         <div class="feature-details">
+           <h4>CHINA
+           </h4>
+           <div>
+             <span><i class="fa fa-map-marker"></i>CHINA</span>
+             <span><i class="fa fa-sun-o"></i>6 days</span>
+             <span><i class="fa fa-moon-o"></i>5 nights</span>
+           </div>
          </div>
        </div>
      </div>
-     <div class="col-lg-4 pt-5 pb-5">
-       <div class="card">
-         <img class="card-img-fluid" src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20201116111704&q=80&rw=750&rh=536" alt="">
-         <div class="card-body">
-           <h1>Japan<strong class="text-primary mb-2 d-block font-weight-lighter">$50</strong></h1>
-           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-         </div>
+     <div class="col-md-4">
+       <div class="feature-box">
+         <div class="feature-img">
+         <img src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/02/a0002487/img/basic/a0002487_main.jpg?20201116111704&q=80&rw=750&rh=536" alt="">
+         <div class="number">
+           <p>50$</p>
        </div>
      </div>
+     <div class="feature-details">
+       <h4>JAPAN
+       </h4>
+     </div>
+   </div>
+ </div>
      <div class="col-lg-4 pt-5 pb-5">
        <div class="card">
          <img class="card-img-fluid" src="https://www.lelongweekend.com/wp-content/uploads/2018/04/nature-3245401_1920-1024x683.jpg" alt="">
