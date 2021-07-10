@@ -109,8 +109,30 @@ include 'includes/header.php';
            </h4>
            <p>If Singapore is famous for Universal Studios, London is a desirable destination for Potterheads - fans of the famous Harry Potter series.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+</div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -128,8 +150,30 @@ include 'includes/header.php';
            </h4>
            <p>The Queen's Palace and Fortress, also commonly known as the Tower of London, is a historic site located in the heart of the city, on the north bank of the River Thames.</p>
          </div>
-       </div>
-     </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -148,8 +192,30 @@ include 'includes/header.php';
          </h4>
          <p>Madame Tussauds is one of the famous tourist destinations in the UK, where more than 300 wax statues of famous people are displayed.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -168,8 +234,30 @@ include 'includes/header.php';
          </h4>
          <p>Buckingham Palace is Britain's most famous residence, Queen Elizabeth II's luxurious residence and workplace.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -187,8 +275,30 @@ include 'includes/header.php';
          </h4>
          <p>Like France and most other European countries, the UK has many great museums and art galleries.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
    </div>
  </section>
 </section>
@@ -220,8 +330,30 @@ include 'includes/header.php';
            </h4>
            <p>Japan's capital and largest city.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -240,8 +372,30 @@ include 'includes/header.php';
            </h4>
            <p>For over 1000 years the capital of Japan.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -259,8 +413,30 @@ include 'includes/header.php';
            </h4>
            <p>Largest city of the Kinki Region.</p>
          </div>
-       </div>
-     </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -279,8 +455,30 @@ include 'includes/header.php';
          </h4>
          <p>Japan's first permanent capital.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -299,8 +497,30 @@ include 'includes/header.php';
          </h4>
          <p>The country's most iconic landmark.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -318,8 +538,30 @@ include 'includes/header.php';
          </h4>
          <p>Regional capital with a tragic history.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
    </div>
  </section>
 </section>
@@ -351,8 +593,30 @@ include 'includes/header.php';
            </h4>
            <p>Is a skyscraper in the "New Center" area of ​​Dubai city. This is the tallest man-made building in the world ever built.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -371,8 +635,30 @@ include 'includes/header.php';
            </h4>
            <p>Burj Al Arab is a luxury hotel in Dubai and is called "the world's first 7-star hotel".</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -390,8 +676,30 @@ include 'includes/header.php';
            </h4>
            <p>Dubai Mall is a shopping mall in Dubai and is the largest mall in the world by area.</p>
          </div>
-       </div>
-     </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -410,8 +718,30 @@ include 'includes/header.php';
          </h4>
          <p>Estuary, golf, marina and river.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -430,8 +760,30 @@ include 'includes/header.php';
          </h4>
          <p>Dubai Fountain is the largest system of fountains in the world located on the artificial lake Burj Khalifa.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -449,8 +801,30 @@ include 'includes/header.php';
          </h4>
          <p>Ski Dubai is a covered winter ski amusement park.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
    </div>
  </section>
 </section>
@@ -482,8 +856,30 @@ include 'includes/header.php';
            </h4>
            <p>The Colosseum was first known as the Amphitheatrum Flavium.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -502,8 +898,30 @@ include 'includes/header.php';
            </h4>
            <p>Cinque Terre is a rugged coastal area about 12 km long, favored by the climate on the Riviera coast, in the Liguria region, northwest Italy.</p>
          </div>
-       </div>
-       </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
        <div class="col-md-4">
          <div class="feature-box">
            <div class="feature-img">
@@ -521,8 +939,30 @@ include 'includes/header.php';
            </h4>
            <p>Cattedrale di Santa Maria del Fiore is the main church of Firenze, Italy.</p>
          </div>
-       </div>
-     </div>
+             <div class="post-info">
+         <!-- if user likes post, style button differently -->
+           <i  if (userLiked($post['id'])):
+               class="fa fa-thumbs-up like-btn"
+              else:
+               class="fa fa-thumbs-o-up like-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="likes"></span>
+
+           &nbsp;&nbsp;&nbsp;&nbsp;
+
+         <!-- if user dislikes post, style button differently -->
+           <i
+              if (userDisliked($post['id'])):
+               class="fa fa-thumbs-down dislike-btn"
+              else:
+               class="fa fa-thumbs-o-down dislike-btn"
+              endif
+             data-id=" echo $post['id'] "></i>
+           <span class="dislikes"></span>
+    </div>
+  </div>
+  </div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -561,8 +1001,30 @@ include 'includes/header.php';
          </h4>
          <p>The Leaning Tower of Pisa is a bell tower in the city of Pisa that was built in 1173.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
      <div class="col-md-4">
        <div class="feature-box">
          <div class="feature-img">
@@ -580,8 +1042,30 @@ include 'includes/header.php';
          </h4>
          <p>Square San Marco or St. Mark's Square is the most important and most famous square of Venice city.</p>
        </div>
-     </div>
-     </div>
+           <div class="post-info">
+       <!-- if user likes post, style button differently -->
+         <i  if (userLiked($post['id'])):
+             class="fa fa-thumbs-up like-btn"
+            else:
+             class="fa fa-thumbs-o-up like-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="likes"></span>
+
+         &nbsp;&nbsp;&nbsp;&nbsp;
+
+       <!-- if user dislikes post, style button differently -->
+         <i
+            if (userDisliked($post['id'])):
+             class="fa fa-thumbs-down dislike-btn"
+            else:
+             class="fa fa-thumbs-o-down dislike-btn"
+            endif
+           data-id=" echo $post['id'] "></i>
+         <span class="dislikes"></span>
+  </div>
+</div>
+</div>
    </div>
  </section>
 </section>
